@@ -4,7 +4,7 @@ Input Validation for Express.js Based on express-validator
 
 ## Motivation
 
-If you use vanilla [](express-validator), you will have to add code
+If you use vanilla [express-validator](https://github.com/ctavan/express-validator), you will have to add code
 like the following to each and every route processing callback function:
 
 ```Javascript
