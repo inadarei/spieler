@@ -1,7 +1,7 @@
 {
   "name": "spieler",
-  "version": "1.0.1",
-  "description": "Input Validation for Express.js Based on express-validator",
+  "version": "1.0.2",
+  "description": "A wrapper for express-validator for easier input validation in Express",
   "main": "./lib/spieler.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
