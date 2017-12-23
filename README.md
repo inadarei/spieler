@@ -1,6 +1,6 @@
 # Spieler
 
-Input Validation for Express.js Based on [express-validator](https://github.com/ctavan/express-validator)
+A wrapper for [express-validator](https://github.com/ctavan/express-validator) for easier input validation in Express.js
 
 ## Motivation
 
