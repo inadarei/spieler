@@ -1,11 +1,14 @@
 # Spieler
 
-A wrapper for [express-validator](https://github.com/ctavan/express-validator) for easier input validation in Express.js
+A wrapper for [express-validator](https://github.com/ctavan/express-validator)
+for easier input validation in Express.js
 
 ## Motivation
 
-If you use vanilla [express-validator](https://github.com/ctavan/express-validator) you will have to add code
-similar to the following to each and every route-processing callback function:
+If you use vanilla
+[express-validator](https://github.com/ctavan/express-validator) you will have
+to add code similar to the following to each and every route-processing callback
+function:
 
 ```Javascript
 
@@ -36,18 +39,7 @@ wonderful express-validator module.
 ## Setup:
 
 1. Add Spieler to your package.json
-2. Enable middleware, wherever you enable Express middleware
-
-   ```Javascript
-   const express = require('express');
-   const app = express();
-   // ...
-   const {spieler, expressValidator} = require('spieler')();
-   app.use(expressValidator());
-   // Make sure the app.use() goes before any route handler mappings.
-   ```
-
-3. In your route mappings, instead of providing just an array of checks, as
+1. In your route mappings, instead of providing just an array of checks, as
    you would do for a vanilla express-validator, wrap the checks in
    a spieler() function call, as shown here:
 
@@ -65,7 +57,6 @@ wonderful express-validator module.
     router.post('/', addUserValidator, actions.addUser);
   ```
 
-You can see the full example of Spieler in action in [NodeBootstrap](https://github.com/inadarei/nodebootstrap), specifically files:
-
-1. [appConfig.js](https://github.com/inadarei/nodebootstrap-microservice/blob/master/appConfig.js) and
-2. [controllers/mapping.js](https://github.com/inadarei/nodebootstrap-microservice/blob/master/lib/users/controllers/mappings.js)
+You can see the full example of Spieler in action in
+[NodeBootstrap](https://github.com/inadarei/nodebootstrap), specifically:
+[controllers/mapping.js](https://github.com/inadarei/nodebootstrap-microservice/blob/master/lib/users/controllers/mappings.js)
