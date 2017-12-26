@@ -59,4 +59,4 @@ wonderful express-validator module.
 
 You can see the full example of Spieler in action in
 [NodeBootstrap](https://github.com/inadarei/nodebootstrap), specifically:
-[controllers/mapping.js](https://github.com/inadarei/nodebootstrap-microservice/blob/master/lib/users/controllers/mappings.js)
+[users/controllers/mapping.js](https://github.com/inadarei/nodebootstrap-microservice/blob/master/lib/users/controllers/mappings.js)
