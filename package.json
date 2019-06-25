@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/inadarei/spieler#readme",
   "dependencies": {
-    "express-validator": "^4.3.0",
+    "express-validator": "^6.0.0",
     "metalogger": "^2.0.0"
   }
 }
