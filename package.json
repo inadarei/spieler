@@ -4,7 +4,9 @@
   "description": "A wrapper for express-validator for easier input validation in Express",
   "main": "./lib/spieler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   "homepage": "https://github.com/inadarei/spieler#readme",
   "dependencies": {
     "express-validator": "^4.3.0",
-    "metalogger": "^2.0.0"
-  }
+    "metalogger": "^2.0.0",
+    "snyk": "^1.192.4"
+  },
+  "snyk": true
 }
