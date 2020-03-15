@@ -1,6 +1,6 @@
 {
   "name": "spieler",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A wrapper for express-validator for easier input validation in Express",
   "main": "./lib/spieler.js",
   "scripts": {
